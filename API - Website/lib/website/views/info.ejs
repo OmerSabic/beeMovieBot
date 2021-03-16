@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+
+<%- include("head") %>
+
+<body>
+
+
+    <div class="container col-12 col-lg-5 align-middle mx-auto" id="container">
+        <h1 class="font-weight-light display-1">Bee Movie Bot</h1>
+        <div class="col-6" id="showUserInfo">
+            <img src=<%= userData.avatarURL %> alt="userProfilePicture" id="userPfp" class="col-4 col-lg-2">
+            <div id="historyContainer">
+                <h5 id="userName"><%= userData.tag %></h5> 
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Bee Movie: </td>
+                            <td><%= historyData.bee %></td>
+                        </tr>
+                        <tr>
+                            <td>Shrek 2: </td>
+                            <td><%= historyData.shrek2 %></td>
+                        </tr>
+                        <tr>
+                            <td>Mein Kampf: </td>
+                            <td><%= historyData.kampf %></td>
+                        </tr>
+                        <tr>
+                            <td>Lord Of The Rigs: </td>
+                            <td><%= historyData.lotr %></td>
+                        </tr>
+                        <tr>
+                            <td>The Communist Manifesto: </td>
+                            <td><%= historyData.communistmanifesto %></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script>
+    </script>
+
+</body>
+</html>
