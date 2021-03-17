@@ -1,5 +1,5 @@
 # beeMovieBot
-Simple discord bot to spam you your favorite movie scripts and store the data on a firebase server.
+Simple discord bot to spam you your favorite movie scripts and store the data on a firebase database.
 
 ## Run your own
 ### Initializing the API
