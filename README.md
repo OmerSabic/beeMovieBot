@@ -44,3 +44,9 @@ Do not give away this token
 
 1. Go to /beeMovieBot/Bot/.env
 2. Edit in .env file: TOKEN = "Same-token-you-put-last-time"
+
+#### Linking bot to API
+
+1. Host your api from /beeMovieBot/API - Website
+2. On line 26 in /beeMovieBot/Bot/main.py there should be a variable named "api_url"
+3. Set it to the URL directing to your API
